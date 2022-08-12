@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background-image:linear-gradient(
+    plum (0,0,0) 0%,
+    green (0,78,68) 100%
+    );
+}
+
+header {
+    color:black;
+    height: 200px;
+    text-align:center;
+    background-color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-header {
+    background-color:plum;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid rgba(0,0,0, .40);
+    opacity: 73%;
+}
+
+.card:hover {
+    opacity: 100%;
+}
+
+.list-group-item {
+    border: 1px solid black;
+    background-color: lightseagreen; 
+}
+
